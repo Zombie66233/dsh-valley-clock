@@ -1,0 +1,54 @@
+{
+  "name": "dsh-valley-clock",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DSH 标题栏右上角的北京时间时钟：DeepSeek 官方峰谷时段一眼可见，点开可看当前模型与 API 余额。第三方插件，非 DeepSeek 官方。",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "clock",
+    "peak",
+    "off-peak",
+    "pricing",
+    "balance",
+    "峰谷",
+    "省钱"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zombie66233/dsh-valley-clock.git"
+  },
+  "homepage": "https://github.com/Zombie66233/dsh-valley-clock#readme",
+  "bugs": {
+    "url": "https://github.com/Zombie66233/dsh-valley-clock/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Peak Clock",
+    "description": "Third-party plugin (unofficial): a Beijing-time clock in the session header. The official DeepSeek route turns red during peak hours and green off-peak; open it for the schedule, the current model and the API balance."
+  }
+}

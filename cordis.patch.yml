@@ -1,0 +1,5 @@
+# Inserts the widget: the Host row serves the schedule and wallet routes, the
+# Client row draws the header clock. One package, one row.
+- insert:
+    - id: valley-clock
+      name: dsh-valley-clock
