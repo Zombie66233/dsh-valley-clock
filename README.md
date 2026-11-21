@@ -1,5 +1,8 @@
 # dsh-valley-clock · 峰谷时钟
 
+[![npm version](https://img.shields.io/npm/v/dsh-valley-clock.svg)](https://www.npmjs.com/package/dsh-valley-clock)
+[![license](https://img.shields.io/npm/l/dsh-valley-clock.svg)](LICENSE)
+
 装在 [DeepSeek Harness](https://github.com/deepseek-ai/dsh) 会话标题栏右上角的一个小时钟：
 
 - 常驻显示**北京时间**（时分秒），不依赖本机时区
@@ -164,19 +167,33 @@ Host 端按以下顺序取值，取到即止；全部失败时只报告原因，
 
 ## 安装
 
-在 DSH 里让我装（推荐）：
+已发布到 npm：**[`dsh-valley-clock`](https://www.npmjs.com/package/dsh-valley-clock)**，也可以直接从 GitHub 装。
+
+### 方式一：从 npm 装（推荐）
+
+在 DSH 对话里：
 
 ```
 plugin_manager  action: install_bundle  target: dsh-valley-clock
 ```
 
-或直接指向仓库：
+或用 `dsh` 命令行：
+
+```
+dsh plugin --profile desktop add dsh-valley-clock
+```
+
+当前版本：`npm view dsh-valley-clock version`
+
+### 方式二：从 GitHub 装
 
 ```
 plugin_manager  action: install_bundle  target: github:Zombie66233/dsh-valley-clock
 ```
 
-或本地目录（开发调试）：
+适合想跟着 `main` 分支走、不等 npm 发版的情况。
+
+### 方式三：本地目录（改代码时用）
 
 ```
 plugin_manager  action: install_bundle  target: D:/path/to/dsh-valley-clock
