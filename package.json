@@ -1,6 +1,6 @@
 {
   "name": "dsh-valley-clock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "DSH 标题栏右上角的北京时间时钟：DeepSeek 官方峰谷时段一眼可见，点开可看当前模型与 API 余额。第三方插件，非 DeepSeek 官方。",
   "license": "MIT",

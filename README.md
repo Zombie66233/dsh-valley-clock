@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/dsh-valley-clock.svg)](https://www.npmjs.com/package/dsh-valley-clock)
 [![license](https://img.shields.io/npm/l/dsh-valley-clock.svg)](LICENSE)
 
-装在 [DeepSeek Harness](https://github.com/deepseek-ai/dsh) 会话标题栏右上角的一个小时钟：
+装在 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 会话标题栏右上角的一个小时钟：
 
 - 常驻显示**北京时间**（时分秒），不依赖本机时区
 - 只在 **DeepSeek 官方通道**下按峰谷定价给时间上色：高峰红、空闲绿
